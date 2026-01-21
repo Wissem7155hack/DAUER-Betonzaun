@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta Tags -->
+  <!-- Primary Meta Tags -->
+  <title>DAUER Betonzaun – Robuste und langlebige Zaunsysteme</title>
+  <meta name="description"
+    content="DAUER Betonzaun: Ihr Experte für Betonzäune. Robuste, langlebige und zeitlose Zaunsysteme aus massivem Beton. Klare Linien und ruhiges Erscheinungsbild.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dauerbetonzaun.de" />
+  <meta property="og:title" content="DAUER Betonzaun – Robuste und langlebige Zaunsysteme" />
+  <meta property="og:description"
+    content="DAUER Betonzaun: Ihr Experte für Betonzäune. Robuste, langlebige und zeitlose Zaunsysteme aus massivem Beton." />
+  <meta property="og:image" content="./images/logo.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://dauerbetonzaun.de" />
+  <meta property="twitter:title" content="DAUER Betonzaun – Robuste und langlebige Zaunsysteme" />
+  <meta property="twitter:description"
+    content="DAUER Betonzaun: Ihr Experte für Betonzäune. Robuste, langlebige und zeitlose Zaunsysteme aus massivem Beton." />
+  <meta property="twitter:image" content="./images/logo.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./images/logo.jpg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/logo.jpg" />
+
+  <!-- Structured Data (Local Business) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GeneralContractor",
+    "name": "DAUER Betonzaun",
+    "image": "./images/logo.jpg",
+    "url": "https://dauerbetonzaun.de",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "DE"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    ],
+    "sameAs": []
+  }
+  </script>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['"Lato"', 'sans-serif'],
+          },
+          colors: {
+            gold: {
+              400: '#d4af37',
+              500: '#c5a059',
+              600: '#b08d55',
+            },
+            earth: {
+              800: '#2c3e2d',
+              900: '#1a261b',
+            },
+            stone: {
+              50: '#f9f9f7',
+              100: '#f0f0eb',
+            }
+          },
+          animation: {
+            'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+            'slow-zoom': 'slowZoom 20s infinite alternate',
+          },
+          keyframes: {
+            fadeInUp: {
+              '0%': { opacity: '0', transform: 'translateY(20px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+            slowZoom: {
+              '0%': { transform: 'scale(1)' },
+              '100%': { transform: 'scale(1.1)' },
+            }
+          }
+        },
+      },
+    }
+  </script>
+
+  <style>
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f0f0eb;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #c5a059;
+      border-radius: 0;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #b08d55;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+</body>
+
+</html>
