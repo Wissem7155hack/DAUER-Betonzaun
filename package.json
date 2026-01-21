@@ -1,11 +1,8 @@
 {
-  "name": "Castor Finishing",
+  "name": "dauer-betonzaun",
   "private": true,
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist --dotfiles",
-  "version": "0.0.0",
   "type": "module",
-  "homepage": "http://wissem7155hack.github.io/DAUER-Betonzaun.git/",
+  "homepage": "https://wissem7155hack.github.io/DAUER-Betonzaun",
   "repository": {
     "type": "git",
     "url": "https://github.com/Wissem7155hack/DAUER-Betonzaun.git"

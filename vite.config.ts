@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
 
   // Use a relative base so the built `dist` works on root or subpath hosts.
   // This avoids absolute `/RepoName/` URLs which can 404 on custom domains.
-  const base = '/';
+  const base = './';
 
   return {
     base,
